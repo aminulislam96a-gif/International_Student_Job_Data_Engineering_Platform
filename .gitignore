@@ -1,0 +1,25 @@
+# API keys
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Raw JSON data
+data/raw/
+
+# Generated reports and cache
+data/availability/
+Data_Inspection/audit/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
