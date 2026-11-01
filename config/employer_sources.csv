@@ -1,0 +1,31 @@
+ats_source,board_name,company_name,is_active
+ashby,cohere,Cohere,true
+ashby,fizz,Fizz,true
+ashby,fluency,Fluency,true
+ashby,notion,Notion,true
+ashby,ramp,Ramp,true
+ashby,skydio,Skydio,true
+ashby,superpower,Superpower,true
+ashby,synctera,Synctera,true
+greenhouse,affirm,Affirm,true
+greenhouse,atek,A-TEK,true
+greenhouse,cloudflare,Cloudflare,true
+greenhouse,compeerfinancial,Compeer Financial,true
+greenhouse,directapplication,,true
+greenhouse,ecjobb,,true
+greenhouse,ensco,ENSCO,true
+greenhouse,memx,MEMX,true
+greenhouse,northmarq,Northmarq,true
+greenhouse,nyisointernships,New York Independent System Operator,true
+greenhouse,prophet,Prophet,true
+greenhouse,singlestore,SingleStore,true
+greenhouse,smartlyio,Smartly,true
+greenhouse,tegnainc,TEGNA,true
+lever,drivetrain,Drivetrain,true
+lever,finch,Finch,true
+lever,neighbor,Neighbor,true
+lever,palantir,Palantir,true
+lever,quantco-,QuantCo,true
+lever,sep,SEP,true
+lever,shieldai,Shield AI,true
+lever,spotify,Spotify,true
