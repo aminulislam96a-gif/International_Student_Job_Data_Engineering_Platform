@@ -18,8 +18,8 @@ with open(config_file, encoding="utf-8", newline="")as f:
 sites_name = []
 
 for employer in employers:
-    source = employer("ats_source") or ("").strip().lower()
-    active = employer("is_active") or ("").strip().lower()
+    source = (employer.get("ats_source") or ("")).strip().lower()
+    active = (employer.get("is_active") or ("")).strip().lower()
 
     if source =="lever" and active =="true":
         sites_name.append(employer["board_name"].strip())

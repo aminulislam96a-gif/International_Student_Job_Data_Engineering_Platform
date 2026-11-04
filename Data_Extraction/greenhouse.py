@@ -17,8 +17,8 @@ with open(config_file, encoding="utf-8", newline="") as f:
 board_names = []
 
 for employer in employers:
-    source = employer("ats_source") or ("").strip().lower()
-    active = employer("is_active") or ("").strip().lower()
+    source = (employer.get("ats_source") or ("")).strip().lower()
+    active = (employer.get("is_active") or ("")).strip().lower()
 
     if source == "greenhouse" and active == "true":
         board_names.append(employer["board_name"].strip())

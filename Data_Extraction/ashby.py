@@ -19,7 +19,7 @@ with open(config_file, encoding="utf-8", newline="")as f:
     for employer in employers:
         source = (employer.get("ats_source") or "").strip().lower()
         active = (employer.get("is_active") or "").strip().lower()
-
+        board = (employer.get("board_name") or "").strip()
 
         if source == "ashby" and active == "true" and board:
             board_names.append(board)
